@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '448257644fd91611ea23865db244fa0a7464f051',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '448257644fd91611ea23865db244fa0a7464f051',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'j4mie/idiorm' => array(
+            'pretty_version' => 'v1.5.8',
+            'version' => '1.5.8.0',
+            'reference' => '6da4e7ec8382ce0cb95543e08c0a1371b77bac8b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../j4mie/idiorm',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/dotenv' => array(
+            'pretty_version' => 'v6.0.19',
+            'version' => '6.0.19.0',
+            'reference' => '9cee123707e689f7e06c09624c145d206468bcf2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/dotenv',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
