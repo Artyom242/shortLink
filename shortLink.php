@@ -17,6 +17,8 @@ if ($dbLink == 0 && !empty($userLink)) {
     $newLinkDb->save();
 
     header("Location: /?newLink=" . $newLink . "&link=" . $userLink);
-} else {
+} else if($dbLink == 1) {
     header("Location: /?newLink=" . 'https://shortlink/goLink.php/?shortLink=' .$dbLink['shortLink'] . "&link=" . $userLink );
+} else{
+    header("Location: /?newLink=" . "&link=");
 }

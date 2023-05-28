@@ -1,9 +1,10 @@
 <?php
 session_start();
 
-require_once 'idiorm.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/j4mie/idiorm/idiorm.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 use Symfony\Component\Dotenv\Dotenv;
+
 
 $dotenv = new Dotenv();
 $dotenv->usePutenv()->load(__DIR__.'/.env');
